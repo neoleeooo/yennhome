@@ -2,3 +2,4 @@ baseURL = 'https://yenn.love/'
 languageCode = 'en-us'
 title = '世界上最可爱的Yenn！'
 theme = "timeline"
+defaultTheme = "light"
