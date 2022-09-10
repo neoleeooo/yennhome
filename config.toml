@@ -8,10 +8,13 @@ copyright = "Copyright by yenn & 咕噜冻"
   name = "制作by 传说中的洞洞"
   github = "https://github.com/lisirrx"
 
-[menu]
-  [[menu.main]]
-    identifier = "timeline"
-    name       = "Timeline"
-    url        = "timeline/"
-    weight     = 1
- 
+
+[server]
+[[server.headers]]
+  for = '/**'
+  [server.headers.values]
+    Content-Security-Policy = 'script-src localhost:1313'
+    Referrer-Policy = 'no-referrer'
+    X-Content-Type-Options = 'nosniff'
+    X-Frame-Options = 'DENY'
+    X-XSS-Protection = '1; mode=block'

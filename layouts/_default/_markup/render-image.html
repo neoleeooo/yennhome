@@ -1,0 +1,8 @@
+{{ if .Title }}
+  <figure>
+    <img referrerpolicy="no-referrer" src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+    <figcaption style="text-align: center; color: gray;">{{ .Title }}</figcaption>
+  </figure>
+{{ else }}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+{{ end }}
