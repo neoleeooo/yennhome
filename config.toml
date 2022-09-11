@@ -7,3 +7,8 @@ copyright = "Copyright by yenn & 咕噜冻"
 [author]
   name = "制作by 传说中的洞洞"
   github = "https://github.com/lisirrx"
+
+[params]
+  upname = "yenn"
+  daytotoday = "一个月"
+  uplink = "https://space.bilibili.com/1192693417/"
